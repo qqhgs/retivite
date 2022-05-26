@@ -1,18 +1,22 @@
 {
   "name": "retivite",
-	"author": {
-		"name": "qqhgs",
-		"url": "https://github.com/qqhgs"
-	},
+  "author": {
+    "name": "qqhgs",
+    "url": "https://github.com/qqhgs"
+  },
   "private": true,
   "version": "0.0.1",
-	"license": "MIT",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.1.2",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.3.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

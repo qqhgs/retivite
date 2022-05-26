@@ -1,5 +1,5 @@
 <div align="center">
-<h2>Retivite</h2>
+<h1>Retivite</h1>
 <p>
 <a href="https://github.com/facebook/react">
 <img width="30" alt="react" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"/>
@@ -20,6 +20,13 @@ Just another one of tons out there where react boilerplate exists.
 <img width="600" src="./dark.png" alt="snapshot">
 </p>
 
+## Includes
+- [ReactJS](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Vite](https://vitejs.dev)
+- [Chakra UI](https://chakra-ui.com)
+- [Framer Motion](https://www.framer.com/motion/)
+
 ## Getting started
 ```bash
 npx degit qqhgs/retivite my-app
@@ -29,9 +36,9 @@ pnpm / yarn / npm install
 pnpm run dev
 ```
 
-### Knowledge
+## Knowledge
 This boilerplate write using `neovim`, something like `eslint` and `prettier` handled by neovim in another way than `vscodium`.
 
-### TODO
+## TODO
 - Add jest & testing library
-- Maybe one styling package
+
