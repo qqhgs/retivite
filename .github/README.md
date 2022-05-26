@@ -17,9 +17,21 @@ Just another one of tons out there where react boilerplate exists.
 </div>
 
 <p align="center">
-<img width="400" src="./dark.png" alt="snapshot">
+<img width="600" src="./dark.png" alt="snapshot">
 </p>
 
-## TODO
+## Getting started
+```bash
+npx degit qqhgs/retivite my-app
+cd my-app
+git init
+pnpm / yarn / npm install
+pnpm run dev
+```
+
+### Knowledge
+This boilerplate write using `neovim`, something like `eslint` and `prettier` handled by neovim in another way than `vscodium`.
+
+### TODO
 - Add jest & testing library
 - Maybe one styling package
