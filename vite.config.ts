@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tsconfigpaths()],
 	server: {
 		host: true
-	}
+	},
+	publicDir: 'public'
 })
 

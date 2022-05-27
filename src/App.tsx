@@ -32,7 +32,7 @@ const App: React.FC = () => {
   return (
     <Box className='App'>
       <VStack h='100vh' justifyContent='center'>
-				<Image className='logo' boxSize='80px' src='./src/logo.svg' alt='react'/>
+				<Image className='logo' boxSize='80px' src='/logo.svg' alt='react'/>
         <Heading as='h1'>Good luck, have fun!</Heading>
         <Text>[ "React", "TypeScript", "Vite", "Chakra UI" ]</Text>
 				<Switch size='lg' onChange={handleDarkMode} isChecked={darkMode} />
