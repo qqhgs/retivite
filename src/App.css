@@ -15,14 +15,27 @@ code {
 }
 
 body {
-	background-color: #eceff4;
-	color: #2e3440;
+  background-color: #eceff4;
+  color: #2e3440;
 
-	-webkit-transition: all .3s;
-	transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .dark body {
-	background-color: #2e3440;
-	color: #eceff4;
+  background-color: #2e3440;
+  color: #eceff4;
+}
+
+.logo {
+  animation: spin 13s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -1,4 +1,4 @@
-import { Heading, Switch, VStack, Text, Box } from '@chakra-ui/react'
+import { Heading, Image, Switch, VStack, Text, Box } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 
 import './App.css'
@@ -32,9 +32,10 @@ const App: React.FC = () => {
   return (
     <Box className='App'>
       <VStack h='100vh' justifyContent='center'>
-        <Switch size='lg' onChange={handleDarkMode} isChecked={darkMode} />
+				<Image className='logo' boxSize='80px' src='./src/logo.svg' alt='react'/>
         <Heading as='h1'>Good luck, have fun!</Heading>
-        <Text>[ "React", "TypeScript", "Vite" ]</Text>
+        <Text>[ "React", "TypeScript", "Vite", "Chakra UI" ]</Text>
+				<Switch size='lg' onChange={handleDarkMode} isChecked={darkMode} />
       </VStack>
     </Box>
   )
